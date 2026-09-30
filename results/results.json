@@ -17,7 +17,7 @@
         "churn_risk": true,
         "refund_requested": true
       },
-      "median_ms": 44.594791950657964,
+      "median_ms": 43.00412500742823,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -111,7 +111,7 @@
         "churn_risk": false,
         "refund_requested": false
       },
-      "median_ms": 41.20804101694375,
+      "median_ms": 65.89754193555564,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -204,7 +204,7 @@
         "urgency": 0,
         "churn_risk": false
       },
-      "median_ms": 42.5295839086175,
+      "median_ms": 66.25229096971452,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -292,7 +292,7 @@
         "churn_risk": true,
         "refund_requested": true
       },
-      "median_ms": 55.23441708646715,
+      "median_ms": 60.8937080251053,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -365,7 +365,7 @@
         "injection": true,
         "toxic": false
       },
-      "median_ms": 32.79941598884761,
+      "median_ms": 34.76733306888491,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -423,7 +423,7 @@
         "injection": false,
         "toxic": false
       },
-      "median_ms": 33.55950000695884,
+      "median_ms": 34.79779197368771,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -481,7 +481,7 @@
         "injection": false,
         "toxic": true
       },
-      "median_ms": 31.3875840511173,
+      "median_ms": 35.54112499114126,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -538,7 +538,7 @@
       "expected": {
         "sentiment": "positive"
       },
-      "median_ms": 26.814250042662024,
+      "median_ms": 28.907832922413945,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -591,7 +591,7 @@
       "expected": {
         "sentiment": "negative"
       },
-      "median_ms": 24.332250002771616,
+      "median_ms": 28.7069589830935,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -645,7 +645,7 @@
         "department": "billing",
         "refund_requested": true
       },
-      "median_ms": 22.6767499698326,
+      "median_ms": 22.317833034321666,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -708,7 +708,7 @@
       "expected": {
         "department": "technical"
       },
-      "median_ms": 20.764750079251826,
+      "median_ms": 15.695624984800816,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -762,7 +762,7 @@
       "expected": {
         "churn_risk": true
       },
-      "median_ms": 19.97733290772885,
+      "median_ms": 16.946166986599565,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -810,7 +810,7 @@
       "expected": {
         "department": "sales"
       },
-      "median_ms": 16.439290950074792,
+      "median_ms": 24.233333999291062,
       "result": {
         "model": "laya-rl-agent",
         "answers": {
@@ -865,7 +865,7 @@
       "expected": {
         "toxic": true
       },
-      "median_ms": 16.328917001374066,
+      "median_ms": 16.67029201053083,
       "result": {
         "model": "laya-rl-agent",
         "answers": {

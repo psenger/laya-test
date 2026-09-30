@@ -35,7 +35,8 @@ TOXIC = {"type": "noul", "instructions": "Is this message abusive, insulting or 
 SENTIMENT = {
     "type": "choice",
     "instructions": "What is the sentiment of this message?",
-    "criteria": {"positive": "happy, loving, satisfied", "negative": "angry, sad, dissatisfied", "neutral": "factual, no emotion"},
+    "criteria": {"positive": "happy, loving, satisfied", "negative": "angry, sad, dissatisfied",
+                 "neutral": "factual, no emotion"},
 }
 
 # (name, state, questions, expected) ; expected: choice -> label, noul -> bool, score -> index
@@ -70,12 +71,14 @@ CASES = [
      {"injection": INJECTION, "toxic": TOXIC},
      {"injection": False, "toxic": True}),
     ("sentiment: HF widget example", "I like you. I love you", {"sentiment": SENTIMENT}, {"sentiment": "positive"}),
-    ("sentiment: negative", "This is the worst service I have ever used. Terrible.", {"sentiment": SENTIMENT}, {"sentiment": "negative"}),
+    ("sentiment: negative", "This is the worst service I have ever used. Terrible.", {"sentiment": SENTIMENT},
+     {"sentiment": "negative"}),
     ("multilingual: Hindi billing", "मुझसे मार्च में दो बार शुल्क लिया गया, कृपया डुप्लिकेट राशि वापस करें।",
      {"department": DEPARTMENT, "refund_requested": REFUND}, {"department": "billing", "refund_requested": True}),
     ("multilingual: Spanish crash", "La aplicación se cierra cada vez que abro la configuración.",
      {"department": DEPARTMENT}, {"department": "technical"}),
-    ("multilingual: French cancel", "Je veux résilier mon abonnement immédiatement, votre service ne fonctionne jamais.",
+    ("multilingual: French cancel",
+     "Je veux résilier mon abonnement immédiatement, votre service ne fonctionne jamais.",
      {"churn_risk": CHURN}, {"churn_risk": True}),
     ("multilingual: Japanese pricing", "エンタープライズプランの料金を教えてください。",
      {"department": DEPARTMENT}, {"department": "sales"}),
